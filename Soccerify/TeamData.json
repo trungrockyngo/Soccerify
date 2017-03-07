@@ -1,0 +1,495 @@
+{
+  "_links": {
+    "self": {
+      "href": "http://api.football-data.org/v1/soccerseasons/424/fixtures"
+    },
+    "soccerseason": {
+      "href": "http://api.football-data.org/v1/soccerseasons/424"
+    }
+  },
+  "count": 15,
+  "fixtures": [
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/150457"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/v1/soccerseasons/424"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/788"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/794"
+        }
+      },
+      "date": "2016-06-25T13:00:00Z",
+      "stadium": "Stade Geoffroy-Guichard, Saint-Etienne",
+      "status": "FINISHED",
+      "matchday": 4,
+      "homeTeamName": "Switzerland",
+      "awayTeamName": "Poland",
+      "result": {
+        "goalsHomeTeam": 1,
+        "goalsAwayTeam": 1,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 1
+        },
+        "extraTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 1
+        },
+        "penaltyShootout": {
+          "goalsHomeTeam": 4,
+          "goalsAwayTeam": 5
+        }
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/150463"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/v1/soccerseasons/424"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/833"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/829"
+        }
+      },
+      "date": "2016-06-25T16:00:00Z",
+      "stadium": "Paris de Princes, Paris",
+      "status": "FINISHED",
+      "matchday": 4,
+      "homeTeamName": "Wales",
+      "awayTeamName": "Northern Ireland",
+      "result": {
+        "goalsHomeTeam": 1,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 0
+        }
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/150462"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/v1/soccerseasons/424"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/799"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/765"
+        }
+      },
+      "date": "2016-06-25T19:00:00Z",
+      "stadium": "Stade Bollaert-Delelis, Lens Aggio",
+      "status": "FINISHED",
+      "matchday": 4,
+      "homeTeamName": "Croatia",
+      "awayTeamName": "Portugal",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 0
+        },
+        "extraTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 1
+        }
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/150461"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/v1/soccerseasons/424"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/773"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/806"
+        }
+      },
+      "date": "2016-06-26T13:00:00Z",
+      "stadium": "Stade de Lyon, Lyon",
+      "status": "FINISHED",
+      "matchday": 4,
+      "homeTeamName": "France",
+      "awayTeamName": "Republic of Ireland",
+      "result": {
+        "goalsHomeTeam": 2,
+        "goalsAwayTeam": 1,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 1
+        }
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/150460"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/v1/soccerseasons/424"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/759"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/768"
+        }
+      },
+      "date": "2016-06-26T16:00:00Z",
+      "stadium": "Stade Pierre Mauroy, Lille Metropole",
+      "status": "FINISHED",
+      "matchday": 4,
+      "homeTeamName": "Germany",
+      "awayTeamName": "Slovakia",
+      "result": {
+        "goalsHomeTeam": 3,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 2,
+          "goalsAwayTeam": 0
+        }
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/150459"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/v1/soccerseasons/424"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/827"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/805"
+        }
+      },
+      "date": "2016-06-26T19:00:00Z",
+      "stadium": "Stade de Toulouse, Toulouse",
+      "status": "FINISHED",
+      "matchday": 4,
+      "homeTeamName": "Hungary",
+      "awayTeamName": "Belgium",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 4,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 1
+        }
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/150458"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/v1/soccerseasons/424"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/784"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/760"
+        }
+      },
+      "date": "2016-06-27T16:00:00Z",
+      "stadium": "Stade de France, Saint-Denis",
+      "status": "FINISHED",
+      "matchday": 4,
+      "homeTeamName": "Italy",
+      "awayTeamName": "Spain",
+      "result": {
+        "goalsHomeTeam": 2,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 0
+        }
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/150464"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/v1/soccerseasons/424"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/770"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/1066"
+        }
+      },
+      "date": "2016-06-27T19:00:00Z",
+      "stadium": "Stade de Nice, Nice",
+      "status": "FINISHED",
+      "matchday": 4,
+      "homeTeamName": "England",
+      "awayTeamName": "Iceland",
+      "result": {
+        "goalsHomeTeam": 1,
+        "goalsAwayTeam": 2,
+        "halfTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 2
+        }
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/151949"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/v1/soccerseasons/424"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/794"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/765"
+        }
+      },
+      "date": "2016-06-30T19:00:00Z",
+      "stadium": "Stade Velodrome, Marseille",
+      "status": "FINISHED",
+      "matchday": 5,
+      "homeTeamName": "Poland",
+      "awayTeamName": "Portugal",
+      "result": {
+        "goalsHomeTeam": 1,
+        "goalsAwayTeam": 1,
+        "halfTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 1
+        },
+        "extraTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 1
+        },
+        "penaltyShootout": {
+          "goalsHomeTeam": 3,
+          "goalsAwayTeam": 5
+        }
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/151950"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/v1/soccerseasons/424"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/833"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/805"
+        }
+      },
+      "date": "2016-07-01T19:00:00Z",
+      "stadium": "Stade Pierre Mauroy, Lille Metropole",
+      "status": "FINISHED",
+      "matchday": 5,
+      "homeTeamName": "Wales",
+      "awayTeamName": "Belgium",
+      "result": {
+        "goalsHomeTeam": 3,
+        "goalsAwayTeam": 1,
+        "halfTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 1
+        }
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/151951"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/v1/soccerseasons/424"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/759"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/784"
+        }
+      },
+      "date": "2016-07-02T19:00:00Z",
+      "stadium": "Stade de Bordeaux, Bordeaux",
+      "status": "FINISHED",
+      "matchday": 5,
+      "homeTeamName": "Germany",
+      "awayTeamName": "Italy",
+      "result": {
+        "goalsHomeTeam": 1,
+        "goalsAwayTeam": 1,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 0
+        },
+        "extraTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 1
+        },
+        "penaltyShootout": {
+          "goalsHomeTeam": 6,
+          "goalsAwayTeam": 5
+        }
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/151952"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/v1/soccerseasons/424"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/773"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/1066"
+        }
+      },
+      "date": "2016-07-03T19:00:00Z",
+      "status": "FINISHED",
+      "stadium": "Stade de France, Saint-Denis",
+      "matchday": 5,
+      "homeTeamName": "France",
+      "awayTeamName": "Iceland",
+      "result": {
+        "goalsHomeTeam": 5,
+        "goalsAwayTeam": 2,
+        "halfTime": {
+          "goalsHomeTeam": 4,
+          "goalsAwayTeam": 0
+        }
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/153663"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/v1/soccerseasons/424"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/765"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/833"
+        }
+      },
+      "date": "2016-07-06T19:00:00Z",
+      "stadium": "Stade de Lyon, Lyon",
+      "status": "FINISHED",
+      "matchday": 6,
+      "homeTeamName": "Portugal",
+      "awayTeamName": "Wales",
+      "result": {
+        "goalsHomeTeam": 2,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 0
+        }
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/153664"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/v1/soccerseasons/424"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/759"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/773"
+        }
+      },
+      "date": "2016-07-07T19:00:00Z",
+      "stadium": "Stade Velodrome, Marseille",
+      "status": "FINISHED",
+      "matchday": 6,
+      "homeTeamName": "Germany",
+      "awayTeamName": "France",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 2,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 1
+        }
+      }
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/153665"
+        },
+        "soccerseason": {
+          "href": "http://api.football-data.org/v1/soccerseasons/424"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/765"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/773"
+        }
+      },
+      "date": "2016-07-10T19:00:00Z",
+      "stadium": "Stade de France, Saint-Denis",
+      "status": "FINISHED",
+      "matchday": 7,
+      "homeTeamName": "Portugal",
+      "awayTeamName": "France",
+      "result": {
+        "goalsHomeTeam": 0,
+        "goalsAwayTeam": 0,
+        "halfTime": {
+          "goalsHomeTeam": 0,
+          "goalsAwayTeam": 0
+        },
+        "extraTime": {
+          "goalsHomeTeam": 1,
+          "goalsAwayTeam": 0
+        }
+      }
+    }
+  ]
+}

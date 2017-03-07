@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C1095ED1D4AC9A000BDA25D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C1095EC1D4AC9A000BDA25D /* Assets.xcassets */; };
+		6C1095F01D4AC9A000BDA25D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C1095EE1D4AC9A000BDA25D /* LaunchScreen.storyboard */; };
+		6C1095FB1D4AC9A000BDA25D /* SoccerifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1095FA1D4AC9A000BDA25D /* SoccerifyTests.swift */; };
+		6C1096061D4AC9A000BDA25D /* SoccerifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1096051D4AC9A000BDA25D /* SoccerifyUITests.swift */; };
+		6C1096211D4AC9C800BDA25D /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6C1096151D4AC9C800BDA25D /* Base.lproj */; };
+		6C1096231D4AC9C800BDA25D /* Final_Project_Storyboard_Design.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C1096171D4AC9C800BDA25D /* Final_Project_Storyboard_Design.xcdatamodeld */; };
+		6C1096261D4AC9C800BDA25D /* RoundSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C10961B1D4AC9C800BDA25D /* RoundSearchVC.swift */; };
+		6C1096351D4AEE8400BDA25D /* RoundDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1096341D4AEE8400BDA25D /* RoundDataModel.swift */; };
+		6C10963B1D4AF48E00BDA25D /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C10963A1D4AF48E00BDA25D /* AFNetworking.framework */; };
+		6C1096411D4AF94400BDA25D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C10963F1D4AF94400BDA25D /* Main.storyboard */; };
+		6C1096471D4B0E4300BDA25D /* TeamData.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C1096461D4B0E4300BDA25D /* TeamData.json */; };
+		6C10970D1D4B3BD400BDA25D /* TeamEditingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C10970C1D4B3BD400BDA25D /* TeamEditingVC.swift */; };
+		6C1097131D4C24E600BDA25D /* Highlights in Resources */ = {isa = PBXBuildFile; fileRef = 6C1097121D4C24E600BDA25D /* Highlights */; };
+		6C1097151D4C3DD300BDA25D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1097141D4C3DD300BDA25D /* DataManager.swift */; };
+		6C1097201D4C689300BDA25D /* MatchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C10971F1D4C689300BDA25D /* MatchData.swift */; };
+		6C4AE1811D4DB78E00ACFE23 /* StadiumMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4AE1801D4DB78E00ACFE23 /* StadiumMapVC.swift */; };
+		6C784A081D52DEBC00B348AC /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6C784A071D52DEBC00B348AC /* Readme.txt */; };
+		6CDF43C71D517C3E003EE510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDF43BE1D517C3E003EE510 /* AppDelegate.swift */; };
+		6CDF43C81D517C3E003EE510 /* FRBreakdownVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDF43BF1D517C3E003EE510 /* FRBreakdownVC.swift */; };
+		6CDF43C91D517C3E003EE510 /* HomeContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDF43C01D517C3E003EE510 /* HomeContainerVC.swift */; };
+		6CDF43CA1D517C3E003EE510 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDF43C11D517C3E003EE510 /* HomeVC.swift */; };
+		6CDF43CC1D517C3E003EE510 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDF43C31D517C3E003EE510 /* Util.swift */; };
+		6CDF43CD1D517C3E003EE510 /* RatingPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDF43C41D517C3E003EE510 /* RatingPersistence.swift */; };
+		6CDF43CE1D517C3E003EE510 /* Final_Project_Storyboard_Design.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CDF43C51D517C3E003EE510 /* Final_Project_Storyboard_Design.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C1095F71D4AC9A000BDA25D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C1095DA1D4AC9A000BDA25D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C1095E11D4AC9A000BDA25D;
+			remoteInfo = Soccerify;
+		};
+		6C1096021D4AC9A000BDA25D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C1095DA1D4AC9A000BDA25D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C1095E11D4AC9A000BDA25D;
+			remoteInfo = Soccerify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11DE1B185090734214BDD8AE /* Pods-Soccerify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soccerify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Soccerify/Pods-Soccerify.debug.xcconfig"; sourceTree = "<group>"; };
+		6C1095E21D4AC9A000BDA25D /* Soccerify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soccerify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C1095EC1D4AC9A000BDA25D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C1095EF1D4AC9A000BDA25D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C1095F11D4AC9A000BDA25D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C1095F61D4AC9A000BDA25D /* SoccerifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoccerifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C1095FA1D4AC9A000BDA25D /* SoccerifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerifyTests.swift; sourceTree = "<group>"; };
+		6C1095FC1D4AC9A000BDA25D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C1096011D4AC9A000BDA25D /* SoccerifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoccerifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C1096051D4AC9A000BDA25D /* SoccerifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerifyUITests.swift; sourceTree = "<group>"; };
+		6C1096071D4AC9A000BDA25D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C1096131D4AC9C700BDA25D /* Soccerify-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Soccerify-Bridging-Header.h"; path = "Soccerify/Soccerify-Bridging-Header.h"; sourceTree = "<group>"; };
+		6C1096151D4AC9C800BDA25D /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = "../../Final Project Storyboard Design/Final Project Storyboard Design/Base.lproj"; sourceTree = "<group>"; };
+		6C1096181D4AC9C800BDA25D /* Final_Project_Storyboard_Design.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Final_Project_Storyboard_Design.xcdatamodel; sourceTree = "<group>"; };
+		6C10961B1D4AC9C800BDA25D /* RoundSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundSearchVC.swift; path = "../../Final Project Storyboard Design/Final Project Storyboard Design/RoundSearchVC.swift"; sourceTree = "<group>"; };
+		6C1096341D4AEE8400BDA25D /* RoundDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundDataModel.swift; sourceTree = "<group>"; };
+		6C10963A1D4AF48E00BDA25D /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Soccerify-alzqyaloxmwtpleaeceyyvbrlmtb/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		6C1096401D4AF94400BDA25D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Soccerify/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C1096461D4B0E4300BDA25D /* TeamData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TeamData.json; sourceTree = "<group>"; };
+		6C10970C1D4B3BD400BDA25D /* TeamEditingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamEditingVC.swift; sourceTree = "<group>"; };
+		6C1097121D4C24E600BDA25D /* Highlights */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Highlights; path = Soccerify/Highlights; sourceTree = "<group>"; };
+		6C1097141D4C3DD300BDA25D /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		6C10971F1D4C689300BDA25D /* MatchData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchData.swift; sourceTree = "<group>"; };
+		6C4AE1801D4DB78E00ACFE23 /* StadiumMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StadiumMapVC.swift; sourceTree = "<group>"; };
+		6C784A071D52DEBC00B348AC /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		6CDF43BE1D517C3E003EE510 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CDF43BF1D517C3E003EE510 /* FRBreakdownVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRBreakdownVC.swift; sourceTree = "<group>"; };
+		6CDF43C01D517C3E003EE510 /* HomeContainerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeContainerVC.swift; sourceTree = "<group>"; };
+		6CDF43C11D517C3E003EE510 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		6CDF43C31D517C3E003EE510 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		6CDF43C41D517C3E003EE510 /* RatingPersistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingPersistence.swift; sourceTree = "<group>"; };
+		6CDF43C61D517C3E003EE510 /* Final_Project_Storyboard_Design.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Final_Project_Storyboard_Design.xcdatamodel; sourceTree = "<group>"; };
+		8453F042037E49D63D6DB9E5 /* Pods-Soccerify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soccerify.release.xcconfig"; path = "Pods/Target Support Files/Pods-Soccerify/Pods-Soccerify.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C1095DF1D4AC9A000BDA25D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C10963B1D4AF48E00BDA25D /* AFNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1095F31D4AC9A000BDA25D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1095FE1D4AC9A000BDA25D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C1095D91D4AC9A000BDA25D = {
+			isa = PBXGroup;
+			children = (
+				6C1096131D4AC9C700BDA25D /* Soccerify-Bridging-Header.h */,
+				6C1097121D4C24E600BDA25D /* Highlights */,
+				6C1095E41D4AC9A000BDA25D /* Soccerify */,
+				6C1095F91D4AC9A000BDA25D /* SoccerifyTests */,
+				6C1096041D4AC9A000BDA25D /* SoccerifyUITests */,
+				6C1095E31D4AC9A000BDA25D /* Products */,
+				E9DF9CC942E40665F36C42D2 /* Pods */,
+				CA3FED892E601E3457369A79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C1095E31D4AC9A000BDA25D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C1095E21D4AC9A000BDA25D /* Soccerify.app */,
+				6C1095F61D4AC9A000BDA25D /* SoccerifyTests.xctest */,
+				6C1096011D4AC9A000BDA25D /* SoccerifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C1095E41D4AC9A000BDA25D /* Soccerify */ = {
+			isa = PBXGroup;
+			children = (
+				6CDF43C51D517C3E003EE510 /* Final_Project_Storyboard_Design.xcdatamodeld */,
+				6C1096431D4B0DD700BDA25D /* Data Manager */,
+				6C10962B1D4ACA2D00BDA25D /* Round Menu */,
+				6C4AE1821D4DB7A100ACFE23 /* Settings Tab View Controller */,
+				6CDF43C01D517C3E003EE510 /* HomeContainerVC.swift */,
+				6CDF43C11D517C3E003EE510 /* HomeVC.swift */,
+				6C10970C1D4B3BD400BDA25D /* TeamEditingVC.swift */,
+				6C10963F1D4AF94400BDA25D /* Main.storyboard */,
+				6C1095EC1D4AC9A000BDA25D /* Assets.xcassets */,
+				6C1096171D4AC9C800BDA25D /* Final_Project_Storyboard_Design.xcdatamodeld */,
+				6C1096151D4AC9C800BDA25D /* Base.lproj */,
+				6C10962D1D4ACB2800BDA25D /* Supporting files */,
+			);
+			path = Soccerify;
+			sourceTree = "<group>";
+		};
+		6C1095F91D4AC9A000BDA25D /* SoccerifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C1095FA1D4AC9A000BDA25D /* SoccerifyTests.swift */,
+				6C1095FC1D4AC9A000BDA25D /* Info.plist */,
+			);
+			path = SoccerifyTests;
+			sourceTree = "<group>";
+		};
+		6C1096041D4AC9A000BDA25D /* SoccerifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C1096051D4AC9A000BDA25D /* SoccerifyUITests.swift */,
+				6C1096071D4AC9A000BDA25D /* Info.plist */,
+			);
+			path = SoccerifyUITests;
+			sourceTree = "<group>";
+		};
+		6C10962B1D4ACA2D00BDA25D /* Round Menu */ = {
+			isa = PBXGroup;
+			children = (
+				6C1096341D4AEE8400BDA25D /* RoundDataModel.swift */,
+				6C10961B1D4AC9C800BDA25D /* RoundSearchVC.swift */,
+			);
+			name = "Round Menu";
+			sourceTree = "<group>";
+		};
+		6C10962D1D4ACB2800BDA25D /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				6CDF43C31D517C3E003EE510 /* Util.swift */,
+				6CDF43BE1D517C3E003EE510 /* AppDelegate.swift */,
+				6C1095F11D4AC9A000BDA25D /* Info.plist */,
+				6C1095EE1D4AC9A000BDA25D /* LaunchScreen.storyboard */,
+				6C784A071D52DEBC00B348AC /* Readme.txt */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		6C1096431D4B0DD700BDA25D /* Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6C1096461D4B0E4300BDA25D /* TeamData.json */,
+				6C1097141D4C3DD300BDA25D /* DataManager.swift */,
+				6C10971F1D4C689300BDA25D /* MatchData.swift */,
+			);
+			name = "Data Manager";
+			sourceTree = "<group>";
+		};
+		6C4AE1821D4DB7A100ACFE23 /* Settings Tab View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6C784A061D527C9C00B348AC /* Match Breakdown */,
+				6C4AE1801D4DB78E00ACFE23 /* StadiumMapVC.swift */,
+			);
+			name = "Settings Tab View Controller";
+			sourceTree = "<group>";
+		};
+		6C784A061D527C9C00B348AC /* Match Breakdown */ = {
+			isa = PBXGroup;
+			children = (
+				6CDF43BF1D517C3E003EE510 /* FRBreakdownVC.swift */,
+				6CDF43C41D517C3E003EE510 /* RatingPersistence.swift */,
+			);
+			name = "Match Breakdown";
+			sourceTree = "<group>";
+		};
+		CA3FED892E601E3457369A79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C10963A1D4AF48E00BDA25D /* AFNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9DF9CC942E40665F36C42D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11DE1B185090734214BDD8AE /* Pods-Soccerify.debug.xcconfig */,
+				8453F042037E49D63D6DB9E5 /* Pods-Soccerify.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C1095E11D4AC9A000BDA25D /* Soccerify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C10960A1D4AC9A000BDA25D /* Build configuration list for PBXNativeTarget "Soccerify" */;
+			buildPhases = (
+				582597EDED1677C74478E286 /* [CP] Check Pods Manifest.lock */,
+				6C1095DE1D4AC9A000BDA25D /* Sources */,
+				6C1095DF1D4AC9A000BDA25D /* Frameworks */,
+				6C1095E01D4AC9A000BDA25D /* Resources */,
+				D4C1434E2488B33901D80CAD /* [CP] Embed Pods Frameworks */,
+				A885EC6A260ADB84D5053FA8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soccerify;
+			productName = Soccerify;
+			productReference = 6C1095E21D4AC9A000BDA25D /* Soccerify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C1095F51D4AC9A000BDA25D /* SoccerifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C10960D1D4AC9A000BDA25D /* Build configuration list for PBXNativeTarget "SoccerifyTests" */;
+			buildPhases = (
+				6C1095F21D4AC9A000BDA25D /* Sources */,
+				6C1095F31D4AC9A000BDA25D /* Frameworks */,
+				6C1095F41D4AC9A000BDA25D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C1095F81D4AC9A000BDA25D /* PBXTargetDependency */,
+			);
+			name = SoccerifyTests;
+			productName = SoccerifyTests;
+			productReference = 6C1095F61D4AC9A000BDA25D /* SoccerifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C1096001D4AC9A000BDA25D /* SoccerifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C1096101D4AC9A000BDA25D /* Build configuration list for PBXNativeTarget "SoccerifyUITests" */;
+			buildPhases = (
+				6C1095FD1D4AC9A000BDA25D /* Sources */,
+				6C1095FE1D4AC9A000BDA25D /* Frameworks */,
+				6C1095FF1D4AC9A000BDA25D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C1096031D4AC9A000BDA25D /* PBXTargetDependency */,
+			);
+			name = SoccerifyUITests;
+			productName = SoccerifyUITests;
+			productReference = 6C1096011D4AC9A000BDA25D /* SoccerifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C1095DA1D4AC9A000BDA25D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Trungski Ngo-Goldberg";
+				TargetAttributes = {
+					6C1095E11D4AC9A000BDA25D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CQ5S8WUQ5X;
+						LastSwiftMigration = 0800;
+					};
+					6C1095F51D4AC9A000BDA25D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CQ5S8WUQ5X;
+						LastSwiftMigration = 0800;
+						TestTargetID = 6C1095E11D4AC9A000BDA25D;
+					};
+					6C1096001D4AC9A000BDA25D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CQ5S8WUQ5X;
+						LastSwiftMigration = 0800;
+						TestTargetID = 6C1095E11D4AC9A000BDA25D;
+					};
+				};
+			};
+			buildConfigurationList = 6C1095DD1D4AC9A000BDA25D /* Build configuration list for PBXProject "Soccerify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C1095D91D4AC9A000BDA25D;
+			productRefGroup = 6C1095E31D4AC9A000BDA25D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C1095E11D4AC9A000BDA25D /* Soccerify */,
+				6C1095F51D4AC9A000BDA25D /* SoccerifyTests */,
+				6C1096001D4AC9A000BDA25D /* SoccerifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C1095E01D4AC9A000BDA25D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C1095F01D4AC9A000BDA25D /* LaunchScreen.storyboard in Resources */,
+				6C1096411D4AF94400BDA25D /* Main.storyboard in Resources */,
+				6C1095ED1D4AC9A000BDA25D /* Assets.xcassets in Resources */,
+				6C1097131D4C24E600BDA25D /* Highlights in Resources */,
+				6C1096471D4B0E4300BDA25D /* TeamData.json in Resources */,
+				6C1096211D4AC9C800BDA25D /* Base.lproj in Resources */,
+				6C784A081D52DEBC00B348AC /* Readme.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1095F41D4AC9A000BDA25D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1095FF1D4AC9A000BDA25D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		582597EDED1677C74478E286 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A885EC6A260ADB84D5053FA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Soccerify/Pods-Soccerify-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4C1434E2488B33901D80CAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Soccerify/Pods-Soccerify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C1095DE1D4AC9A000BDA25D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C1096351D4AEE8400BDA25D /* RoundDataModel.swift in Sources */,
+				6CDF43CD1D517C3E003EE510 /* RatingPersistence.swift in Sources */,
+				6CDF43C81D517C3E003EE510 /* FRBreakdownVC.swift in Sources */,
+				6C1096261D4AC9C800BDA25D /* RoundSearchVC.swift in Sources */,
+				6CDF43CA1D517C3E003EE510 /* HomeVC.swift in Sources */,
+				6CDF43C91D517C3E003EE510 /* HomeContainerVC.swift in Sources */,
+				6CDF43C71D517C3E003EE510 /* AppDelegate.swift in Sources */,
+				6C4AE1811D4DB78E00ACFE23 /* StadiumMapVC.swift in Sources */,
+				6CDF43CC1D517C3E003EE510 /* Util.swift in Sources */,
+				6C1097151D4C3DD300BDA25D /* DataManager.swift in Sources */,
+				6C1096231D4AC9C800BDA25D /* Final_Project_Storyboard_Design.xcdatamodeld in Sources */,
+				6C1097201D4C689300BDA25D /* MatchData.swift in Sources */,
+				6CDF43CE1D517C3E003EE510 /* Final_Project_Storyboard_Design.xcdatamodeld in Sources */,
+				6C10970D1D4B3BD400BDA25D /* TeamEditingVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1095F21D4AC9A000BDA25D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C1095FB1D4AC9A000BDA25D /* SoccerifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C1095FD1D4AC9A000BDA25D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C1096061D4AC9A000BDA25D /* SoccerifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C1095F81D4AC9A000BDA25D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C1095E11D4AC9A000BDA25D /* Soccerify */;
+			targetProxy = 6C1095F71D4AC9A000BDA25D /* PBXContainerItemProxy */;
+		};
+		6C1096031D4AC9A000BDA25D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C1095E11D4AC9A000BDA25D /* Soccerify */;
+			targetProxy = 6C1096021D4AC9A000BDA25D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C1095EE1D4AC9A000BDA25D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C1095EF1D4AC9A000BDA25D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6C10963F1D4AF94400BDA25D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C1096401D4AF94400BDA25D /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C1096081D4AC9A000BDA25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C1096091D4AC9A000BDA25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C10960B1D4AC9A000BDA25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11DE1B185090734214BDD8AE /* Pods-Soccerify.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = CQ5S8WUQ5X;
+				INFOPLIST_FILE = Soccerify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ngo.Soccerify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Soccerify/Soccerify-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		6C10960C1D4AC9A000BDA25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8453F042037E49D63D6DB9E5 /* Pods-Soccerify.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = CQ5S8WUQ5X;
+				INFOPLIST_FILE = Soccerify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ngo.Soccerify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Soccerify/Soccerify-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		6C10960E1D4AC9A000BDA25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoccerifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ngo.SoccerifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soccerify.app/Soccerify";
+			};
+			name = Debug;
+		};
+		6C10960F1D4AC9A000BDA25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoccerifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ngo.SoccerifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Soccerify.app/Soccerify";
+			};
+			name = Release;
+		};
+		6C1096111D4AC9A000BDA25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoccerifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ngo.SoccerifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_TARGET_NAME = Soccerify;
+			};
+			name = Debug;
+		};
+		6C1096121D4AC9A000BDA25D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoccerifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ngo.SoccerifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_TARGET_NAME = Soccerify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C1095DD1D4AC9A000BDA25D /* Build configuration list for PBXProject "Soccerify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C1096081D4AC9A000BDA25D /* Debug */,
+				6C1096091D4AC9A000BDA25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C10960A1D4AC9A000BDA25D /* Build configuration list for PBXNativeTarget "Soccerify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C10960B1D4AC9A000BDA25D /* Debug */,
+				6C10960C1D4AC9A000BDA25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C10960D1D4AC9A000BDA25D /* Build configuration list for PBXNativeTarget "SoccerifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C10960E1D4AC9A000BDA25D /* Debug */,
+				6C10960F1D4AC9A000BDA25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C1096101D4AC9A000BDA25D /* Build configuration list for PBXNativeTarget "SoccerifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C1096111D4AC9A000BDA25D /* Debug */,
+				6C1096121D4AC9A000BDA25D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6C1096171D4AC9C800BDA25D /* Final_Project_Storyboard_Design.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6C1096181D4AC9C800BDA25D /* Final_Project_Storyboard_Design.xcdatamodel */,
+			);
+			currentVersion = 6C1096181D4AC9C800BDA25D /* Final_Project_Storyboard_Design.xcdatamodel */;
+			name = Final_Project_Storyboard_Design.xcdatamodeld;
+			path = "../../Final Project Storyboard Design/Final Project Storyboard Design/Final_Project_Storyboard_Design.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		6CDF43C51D517C3E003EE510 /* Final_Project_Storyboard_Design.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6CDF43C61D517C3E003EE510 /* Final_Project_Storyboard_Design.xcdatamodel */,
+			);
+			currentVersion = 6CDF43C61D517C3E003EE510 /* Final_Project_Storyboard_Design.xcdatamodel */;
+			path = Final_Project_Storyboard_Design.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6C1095DA1D4AC9A000BDA25D /* Project object */;
+}
